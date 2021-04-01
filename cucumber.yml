@@ -1,0 +1,3 @@
+default: --publish-quiet -p html -p bdd
+html: -f html -o logs/report.html
+bdd: -f pretty
